@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+:root{
+    font-family: 'Crimson Text', sans-serif;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    height: 290px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-between;
+}
+header .navbar {
+    position: fixed;
+    width: 980px;
+    z-index: 999;
+}
+header .banner {
+    display: flex;
+   height: 255px;
+    width: 100%;
+}
+.about_me {
+    position: relative;
+    top: -170px;
+    margin-left: 50px;
+    color: white;
+}
+
+
+.text {
+    display: flex;
+    width: 100%;
+    margin-left: 40px;
+}
+
+
+.quote {
+   display: flex;
+   width: 100%;
+
+
+
+
+
+main #services {
+    width: 600px;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left-width: 80px;
+}
+main .carousel slide {
+    display: flex;
+    width: 100%;
+}
+.carousel-caption {
+    display: flex;
+   
+    color: black;
+    
+}
+#contacts {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+main .social_networks {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+main .contact_me {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+main .write {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+main .container img {
+    width: 250px;
+}
+
+main .container {
+     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-between;
+    background-color: #a4112f;
+    color: white;
+}
+footer .address {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+footer .cont {
+    margin-left: 120px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer .work_day {
+    margin-left: 120px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+     background-color: #a4112f;
+
+
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+     background-color: #a4112f;
+    color: white;
+    padding-top: 20px;
+}
